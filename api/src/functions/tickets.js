@@ -1,5 +1,5 @@
 const { app } = require('@azure/functions');
-
+ 
 app.http('tickets', {
   methods: ['POST'],
   authLevel: 'anonymous',
